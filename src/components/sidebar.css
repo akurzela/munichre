@@ -1,0 +1,28 @@
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: white;
+    position: sticky;
+    top: 10px;
+}
+
+.sidebarWrapper{
+    padding-left: 10px;
+    color: #E7EBF2;
+}
+
+.sidebarMenu{
+    margin-bottom:10px;
+}
+
+.sidebarTitle{
+    font-size: 13px;
+    color: #2E2F30;
+}
+
+.sidebarList{
+    list-style: none;
+    padding: 6px;
+    color: #2E2F30;
+    font-family: inherit;
+}
