@@ -9,15 +9,15 @@ export default function Sidebar() {
                 <div className="sidebarMenu">
                     <ul className="sidebarList">
                        <li className="sidebarListItem">
-                        <Home />&nbsp;
+                        <Home className="sidebarIcon" />&nbsp;
                         Overview
                        </li>
                        <li className="sidebarListItem">
-                        <Equalizer />&nbsp;
+                        <Equalizer className="sidebarIcon" />&nbsp;
                         Risk insights
                        </li>
                        <li className="sidebarListItem">
-                        <SupervisorAccount />&nbsp;
+                        <SupervisorAccount className="sidebarIcon" />&nbsp;
                         Policyholders
                        </li>
                        <li className="sidebarListItem">

@@ -26,3 +26,25 @@
     color: #2E2F30;
     font-family: inherit;
 }
+
+.sidebarListItem{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sidebarListItems.active,
+.sidebarListItem:hover {
+    background-color: rgb(240,240,255)
+}
+
+
+sidebarIcon{
+    margin-right: 5px;
+    font_size: 20px !important;
+}
+
+
+
